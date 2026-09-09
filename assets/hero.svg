@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Facundo Duarte — Java y Backend Developer</title>
+  <desc id="desc">Banner oscuro animado con detalles cian y violeta.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050913"/>
+      <stop offset="0.5" stop-color="#091424"/>
+      <stop offset="1" stop-color="#110b24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.5" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8b5cf6" stroke-opacity=".09"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="terminalClip"><rect x="744" y="72" width="390" height="215" rx="16"/></clipPath>
+    <style>
+      .orb-a{animation:floatA 7s ease-in-out infinite}.orb-b{animation:floatB 9s ease-in-out infinite}
+      .cursor{animation:blink 1s steps(2,end) infinite}.code{animation:fade 4s ease-in-out infinite}
+      .scan{animation:scan 5s linear infinite}
+      @keyframes floatA{50%{transform:translate(42px,20px)}}
+      @keyframes floatB{50%{transform:translate(-32px,-18px)}}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes fade{0%,100%{opacity:.58}50%{opacity:1}}
+      @keyframes scan{from{transform:translateY(-220px)}to{transform:translateY(240px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle class="orb-a" cx="140" cy="80" r="220" fill="url(#orb)"/>
+  <circle class="orb-b" cx="1080" cy="310" r="260" fill="url(#orb)" opacity=".7"/>
+  <path d="M0 313C245 274 368 347 612 312s372-52 588-8v56H0z" fill="#00e5ff" opacity=".035"/>
+  <g transform="translate(72 87)">
+    <text x="0" y="28" fill="#8b9bb4" font-family="Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="4">HOLA, SOY</text>
+    <text x="0" y="96" fill="url(#accent)" filter="url(#glow)" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="750">FACUNDO DUARTE</text>
+    <text x="2" y="145" fill="#e6edf3" font-family="Consolas,monospace" font-size="25">Java &amp; Backend Developer<tspan class="cursor" fill="#00e5ff">_</tspan></text>
+    <text x="2" y="188" fill="#8796ad" font-family="Segoe UI,Arial,sans-serif" font-size="18">Transformando ideas en soluciones que funcionan.</text>
+  </g>
+  <g clip-path="url(#terminalClip)">
+    <rect x="744" y="72" width="390" height="215" rx="16" fill="#07101d" stroke="#27364b"/>
+    <rect x="744" y="72" width="390" height="38" fill="#0d1928"/>
+    <circle cx="770" cy="91" r="5" fill="#ff5f57"/><circle cx="788" cy="91" r="5" fill="#febc2e"/><circle cx="806" cy="91" r="5" fill="#28c840"/>
+    <text x="828" y="97" fill="#73839a" font-family="Consolas,monospace" font-size="12">facundo@dev:~</text>
+    <g class="code" font-family="Consolas,monospace" font-size="15">
+      <text x="770" y="140" fill="#a78bfa">public class <tspan fill="#67e8f9">Developer</tspan> {</text>
+      <text x="790" y="169" fill="#8b9bb4">String focus = <tspan fill="#a7f3d0">"backend"</tspan>;</text>
+      <text x="790" y="198" fill="#8b9bb4">String stack = <tspan fill="#a7f3d0">"Java + SQL"</tspan>;</text>
+      <text x="790" y="227" fill="#fbbf24">build</text><text x="832" y="227" fill="#e6edf3">(</text><text x="842" y="227" fill="#a7f3d0">"ideas"</text><text x="905" y="227" fill="#e6edf3">);</text>
+      <text x="770" y="256" fill="#a78bfa">}</text>
+    </g>
+    <rect class="scan" x="744" y="80" width="390" height="2" fill="#00e5ff" opacity=".28"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="url(#accent)" stroke-opacity=".42"/>
+</svg>
