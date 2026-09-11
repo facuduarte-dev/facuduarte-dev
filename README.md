@@ -71,8 +71,7 @@ Soy estudiante de **Tecnologías de la Información en ITSP**, orientado al desa
 ## Actividad
 
 <div align="center">
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=facuduarte-dev&theme=github_dark" alt="Estadísticas de GitHub" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=facuduarte-dev&theme=github_dark" alt="Lenguajes más usados" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=facuduarte-dev&theme=github_dark" alt="Resumen de actividad de GitHub" />
 </div>
 
 <div align="center">
