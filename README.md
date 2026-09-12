@@ -33,7 +33,7 @@ Soy estudiante de **Tecnologías de la Información en ITSP**, orientado al desa
       <h3>📷 Matrícula OCR</h3>
       <p>Lector de matrículas construido con Java, OpenCV y Tesseract. Admite imágenes, cámaras y streams, con validación por confianza y enfoque en privacidad.</p>
       <p><strong>Java · Maven · OpenCV · Tesseract</strong></p>
-      <a href="https://github.com/facuduarte-dev/MatriculaOCR">Ver repositorio →</a>
+      <a href="https://github.com/facuduarte-dev/matricula-ocr">Ver repositorio →</a>
     </td>
   </tr>
   <tr>
@@ -41,7 +41,7 @@ Soy estudiante de **Tecnologías de la Información en ITSP**, orientado al desa
       <h3>✂️ ClipBarber</h3>
       <p>Aplicación web para una experiencia moderna de barbería, con interfaz responsive y despliegue público.</p>
       <p><strong>JavaScript · TypeScript · HTML · PostgreSQL</strong></p>
-      <a href="https://clip-barber.vercel.app">Ver demo →</a> · <a href="https://github.com/facuduarte-dev/ClipBarber">Código</a>
+      <a href="https://clip-barber.vercel.app">Ver demo →</a> · <a href="https://github.com/facuduarte-dev/clip-barber">Código</a>
     </td>
     <td width="50%" valign="top">
       <h3>🍕 Venancio Pizza</h3>
