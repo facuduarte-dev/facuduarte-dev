@@ -43,12 +43,7 @@ Soy estudiante de **Tecnologías de la Información en ITSP**, orientado al desa
       <p><strong>JavaScript · TypeScript · HTML · PostgreSQL</strong></p>
       <a href="https://clip-barber.vercel.app">Ver demo →</a> · <a href="https://github.com/facuduarte-dev/clip-barber">Código</a>
     </td>
-    <td width="50%" valign="top">
-      <h3>🍕 Venancio Pizza</h3>
-      <p>Sitio web gastronómico responsive publicado en producción, enfocado en una navegación simple y una presentación visual directa.</p>
-      <p><strong>HTML · CSS · Web responsive</strong></p>
-      <a href="https://venancio-pizza.vercel.app">Ver demo →</a> · <a href="https://github.com/facuduarte-dev/venancio-pizza">Código</a>
-    </td>
+
   </tr>
 </table>
 
